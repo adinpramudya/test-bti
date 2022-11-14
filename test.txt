@@ -1,0 +1,24 @@
+Query 1: select item from asset where user_id= 'wildan' OR item like 'm%' ;
+Query 2: SELECT
+	users.user_id,
+	item
+FROM
+	users
+INNER JOIN asset
+    ON asset.user_id = users.user_id
+GROUP BY user_id;
+
+
+
+1.	Cypress adalah salah satu software yang digunakan untuk automation testing. Software yang bersifat open source yang artinya dapat digunakan secara gratis dan kapanpun.
+2.	Kubernetes adalah system orkestrasi container terbuka untuk mengotomatisasi penerapan, penskalaan, dan manajemen aplikasi computer dalam suatu cluster server
+3.	ORM adalah Object Relation Mapping merupakan Teknik yang digunakan dalam pemrograman untuk menggunakan basis data relasional sebagai penyimpanan data dalam bentuk objek
+4.	Class dalam OOP adalah sebuah cetakan dalam membuat objek, kelas menentukan apa yang dimiliki sebuah objek dan apa yang dapat dilakukan oleh objek
+5.	Function adalah sebuah blok kode yang digunakan untuk membungkus suatu proses dengan tujuan agar penulisan kode yang sama tidak dilakukan berulang-ulang kali
+6.	DevOp ada;ah sebuah sepeangkat praktek yang bertujuan untuk menggabungkan software dan operasi TI
+7.	Docker adalah seperangkat platform sebagai produk layanan yang menggunakan virtualisasi OS untuk mengirimkan perangkat lunak dalam paket yang disebut container
+
+Microservices karena menurut saya dalam membuat sebuah aplikasi namun terdiri dari beberapa unit layanan yang berbeda dapat tetap saling terhubung
+Layered architecture karena menurut saya komponen di buat dengan berlapis ke dalam bentuk horizontal yang dapat memisahkan kepentingan antar layer komponen
+Space based  karena menurut saya artektur ini berbasis ruang dirancang khusus untuk mengatasi dan memecahkan masalah skalabilitas yang ekstrem dan konkurensi
+
